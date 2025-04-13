@@ -97,3 +97,7 @@ This project is open source and available under the [MIT License](LICENSE).
 Arjun Reddy Pulugu - [pulugu.a@northeastern.edu](mailto:pulugu.a@northeastern.edu)
 
 Project Link: [https://github.com/arjunreddypulugu/portfolio](https://github.com/arjunreddypulugu/portfolio)
+
+## Deployment Status
+
+This portfolio is deployed using GitHub Pages.
