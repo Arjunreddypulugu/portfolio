@@ -6,6 +6,7 @@ import { useInView } from 'react-intersection-observer';
 import { FaGithub, FaExternalLinkAlt, FaChevronLeft, FaChevronRight, FaLink } from 'react-icons/fa';
 import { SiTensorflow, SiPytorch, SiScikitlearn, SiPandas, SiNumpy, SiJupyter, SiPython, SiR, SiTableau } from 'react-icons/si';
 import Image from 'next/image';
+import { getImagePath } from './ImageWithBasePath';
 
 const Projects = () => {
   const [ref, inView] = useInView({
@@ -317,7 +318,7 @@ const Projects = () => {
                 <div className={`relative h-72 overflow-hidden bg-gradient-to-br ${projects[currentIndex].color}`}>
                   {projects[currentIndex].image && (
                     <Image
-                      src={projects[currentIndex].image}
+                      src={getImagePath(projects[currentIndex].image)}
                       alt={projects[currentIndex].title}
                       fill
                       className="object-cover opacity-50"

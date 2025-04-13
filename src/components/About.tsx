@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { FaPython, FaDatabase, FaChartLine, FaBrain, FaCloud, FaTools } from 'react-icons/fa';
 import { SiTensorflow, SiPytorch, SiScikitlearn, SiPandas, SiNumpy, SiJupyter } from 'react-icons/si';
+import { getImagePath } from './ImageWithBasePath';
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -93,7 +94,7 @@ const About = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl transform -rotate-6 opacity-25" />
             <div className="relative rounded-2xl overflow-hidden aspect-square">
               <Image
-                src="/images/profile/arjun.jpeg"
+                src={getImagePath("/images/profile/arjun.jpeg")}
                 alt="Arjun Reddy Pulugu"
                 fill
                 className="object-cover"

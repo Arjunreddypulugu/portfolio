@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import { getImagePath } from './ImageWithBasePath';
 
 const experiences = [
   {
@@ -93,7 +94,7 @@ const Experience = () => {
                     {exp.logo && (
                       <div className="w-12 h-12 relative flex-shrink-0 bg-gray-700/50 rounded-lg flex items-center justify-center">
                         <Image
-                          src={exp.logo}
+                          src={getImagePath(exp.logo)}
                           alt={`${exp.company} logo`}
                           fill
                           className="object-contain p-2"
