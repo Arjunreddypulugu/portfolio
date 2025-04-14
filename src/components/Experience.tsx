@@ -27,7 +27,7 @@ const experiences = [
     title: 'Graduate Teaching Assistant',
     company: 'Northeastern University',
     location: 'Boston, MA',
-    period: 'Jan 2023 – Dec 2023',
+    period: 'Sep 2024 – Dec 2024',
     logo: '/images/profile/nuLogo.jpeg',
     achievements: [
       'Taught Python, PySpark, and Hadoop to 150+ students, emphasizing debugging, data modeling, and cloud concepts',
