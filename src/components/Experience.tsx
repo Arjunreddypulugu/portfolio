@@ -12,19 +12,16 @@ const experiences = [
     period: 'Jan 2025 – Jul 2025',
     logo: '/images/profile/vandyk.webp',
     achievements: [
-      'Automated data analysis using Python, reducing processing time by 25% to support ML model training',
-      'Troubleshot networking issues (TCP/IP, DNS, OSI) during upgrades, ensuring 99.9% system uptime',
-      'Optimized cloud infrastructure resource allocation by 20% through SQL analysis of 1M+ records',
-      'Configured routing and firewalls, enhancing network security by 30% in collaboration with cross-functional teams',
-      'Performed gap analysis on cloud systems, reducing latency by 15% through optimized memory and CPU usage',
-      'Used Jupyter notebooks for reproducible data analysis, improving ML model performance insights',
-      'Built predictive models in R with 90% accuracy to forecast system downtime and improve reliability',
-      'Deployed and managed AWS EC2 instances and S3 storage solutions, improving system scalability by 25%',
-      'Optimized cloud performance using AWS DynamoDB, enabling efficient handling of high-volume transactional data',
-      'Resolved system errors using traceroute, dig, and cURL, achieving a 20% improvement in resolution time',
-      'Integrated TensorFlow ML pipelines, boosting cloud task execution speed by 20% through optimization'
+      'Migrated 97-table database to Azure SQL DB via schema normalization, cutting ETL runtime 30% for cloud analytics',
+      'Automated reports via Azure Logic Apps/SQL, saving 15+ hours/month with 100% data accuracy',
+      'Built Python/GPT-4 tool on Azure VMs, halving data extraction time from 10000+ Engineering drawings',
+      'Engineered Azure Data Factory pipelines, automating spare parts updates and boosting efficiency 40%',
+      'Automated folder creation with Azure Functions, slashing file management 70% via Python scripts',
+      'Deployed Azure Bot Service chatbot, reducing technicians' data retrieval time by 35% via GPT-4/Cognitive Search',
+      'Built Azure App Service timeclock app, eliminating 20+ admin hours/week with Azure AD, improving payroll accuracy',
+      'Created Azure ETL pipelines with Computer Vision, cutting manual errors 25% in image data extraction'
     ],
-    technologies: ['Python', 'AWS', 'SQL', 'R', 'TensorFlow', 'Networking', 'Cloud Infrastructure']
+    technologies: ['Python', 'Azure', 'SQL', 'GPT-4', 'Azure Data Factory', 'Azure Functions', 'Computer Vision', 'ETL']
   },
   {
     title: 'Graduate Teaching Assistant',
