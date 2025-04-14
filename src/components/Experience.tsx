@@ -17,7 +17,7 @@ const experiences = [
       'Built Python/GPT-4 tool on Azure VMs, halving data extraction time from 10000+ Engineering drawings',
       'Engineered Azure Data Factory pipelines, automating spare parts updates and boosting efficiency 40%',
       'Automated folder creation with Azure Functions, slashing file management 70% via Python scripts',
-      'Deployed Azure Bot Service chatbot, reducing technicians' data retrieval time by 35% via GPT-4/Cognitive Search',
+      'Deployed Azure Bot Service chatbot, reducing technicians\' data retrieval time by 35% via GPT-4/Cognitive Search',
       'Built Azure App Service timeclock app, eliminating 20+ admin hours/week with Azure AD, improving payroll accuracy',
       'Created Azure ETL pipelines with Computer Vision, cutting manual errors 25% in image data extraction'
     ],
